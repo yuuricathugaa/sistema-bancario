@@ -50,7 +50,7 @@ function verSaldo()
 function verHistorico() 
 {
  
-  console.log("Seu Histórico de Transações :");
+  console.log('Seu Histórico de Transações :');
   historico.forEach((transacao, index) => 
   {
     console.log(`${index + 1}. Tipo: ${transacao.tipo}, Valor: R$ ${transacao.valor}, Saldo após a transação: R$ ${transacao.saldo}, Data: ${transacao.data.toLocaleString()}`);
